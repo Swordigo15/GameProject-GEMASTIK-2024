@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3495409006211697246}
   - component: {fileID: -3496382499961877651}
+  - component: {fileID: 4722930809411549121}
   m_Layer: 0
   m_Name: Crossroad Node
   m_TagString: Untagged
@@ -46,10 +47,32 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2ae0be2153d87294c9829060cd0a0e6f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isWalkable: 1
-  neighbours: []
-  g: 0
-  h: 0
+  isChecker: 0
+  canBeDestroyed: 1
+  colliders: []
+  neighbourNode: {fileID: 0}
+--- !u!64 &4722930809411549121
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5291980067425045895}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
 --- !u!1001 &6675593102998760747
 PrefabInstance:
   m_ObjectHideFlags: 0

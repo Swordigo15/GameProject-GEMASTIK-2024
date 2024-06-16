@@ -209,6 +209,8 @@ GameObject:
   m_Component:
   - component: {fileID: 5089696854747763964}
   - component: {fileID: -2809472455748003473}
+  - component: {fileID: 2833134522917374114}
+  - component: {fileID: 5563501405066679649}
   m_Layer: 0
   m_Name: Four Way Node
   m_TagString: Untagged
@@ -261,12 +263,55 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isChecker: 0
+  canBeDestroyed: 1
   colliders:
   - {fileID: 7524678319538934234}
   - {fileID: 3627541754402821944}
   - {fileID: 1100589481998350654}
   - {fileID: 8116550204571284563}
   neighbourNode: {fileID: 0}
+--- !u!65 &2833134522917374114
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 640096032742557380}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 4, y: 0.01, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!65 &5563501405066679649
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 640096032742557380}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 0.01, z: 4}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &2529952061838915466
 GameObject:
   m_ObjectHideFlags: 0

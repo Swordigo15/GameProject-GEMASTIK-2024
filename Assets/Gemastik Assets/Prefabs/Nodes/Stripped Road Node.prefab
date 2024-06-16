@@ -72,6 +72,7 @@ GameObject:
   m_Component:
   - component: {fileID: 546037944185395378}
   - component: {fileID: 4375705149489991765}
+  - component: {fileID: 4707636839700911097}
   m_Layer: 0
   m_Name: Stripped Road Node
   m_TagString: Untagged
@@ -109,10 +110,31 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2ae0be2153d87294c9829060cd0a0e6f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isWalkable: 1
-  neighbours: []
-  g: 0
-  h: 0
+  isChecker: 0
+  canBeDestroyed: 1
+  colliders: []
+  neighbourNode: {fileID: 0}
+--- !u!65 &4707636839700911097
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9108078072667681438}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 0.01, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &6973056397298000494
 PrefabInstance:
   m_ObjectHideFlags: 0

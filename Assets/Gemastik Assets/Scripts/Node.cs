@@ -5,6 +5,7 @@ using UnityEngine;
 public class Node : MonoBehaviour
 {
     public bool isChecker;
+    public bool canBeDestroyed;
     [SerializeField] List<Collider> colliders;
 
     [SerializeField] Node neighbourNode;

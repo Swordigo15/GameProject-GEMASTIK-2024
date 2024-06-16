@@ -40,10 +40,12 @@ public class InputActionController : MonoBehaviour
             case Mode.Traffic:
                 _inputAction.Car.Disable();
                 _inputAction.Camera.Enable();
+                print("build mode");
                 break;
             case Mode.Drive:
                 _inputAction.Camera.Disable();
                 _inputAction.Car.Enable();
+                print("drive mode");
                 break;
         }
     }
